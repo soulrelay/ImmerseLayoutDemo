@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color" >
+
+    <include
+        android:id="@+id/common_back"
+        layout="@layout/common_back" />
+
+    <ImageView
+        android:id="@+id/durian_logo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/common_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" />
+
+    <TextView
+        android:id="@+id/durian_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/durian_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/common_text_black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/durian_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/durian_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="V1.0.00"
+        android:textColor="@color/report_cancel"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/setting_login_out_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/durian_version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/btn_check_version_selector"
+        android:gravity="center"
+        android:text="go"
+        android:textColor="@color/report_cancel"
+        android:textSize="12sp" />
+
+</RelativeLayout>

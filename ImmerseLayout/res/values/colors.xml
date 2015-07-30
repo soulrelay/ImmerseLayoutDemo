@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_white">#ffffffff</color>
+    <color name="common_translate">#00000000</color>
+    <color name="common_bg">#F5F5F5</color>
+    <color name="common_text_black">#3E363D</color>
+    
+    <color name="login_divider">#66ffffff</color>
+    <color name="black">#000000</color>
+    
+    <color name="umeng_bg">#F5F5F5</color>
+    <color name="common_top_bg">#FFD929</color>
+    <color name="umeng_title">#585858</color>
+    <color name="umeng_url">#c4c4c4</color>
+    
+    <color name="home_bab_bg">#3E363D</color>
+    <color name="home_listview_divider_color">#ECECEC</color>
+    <color name="home_type_live_bg">#CCFFD929</color>
+    <color name="home_type_video_bg">#CC3E363D</color>
+    <color name="home_type_live_text">#413940</color>
+    
+    <!-- 手机登录界面 -->
+    <color name="tel_login_btn_normal">#c9c8c9</color>
+    <color name="tel_login_btn_selected">#b7b5b7</color>
+    <color name="vertification_selected">#efefef</color>
+    <color name="vertification_stroke">#d9d9d9</color>
+    <color name="tel_login_line">#ececec</color>
+    <color name="line_color">#cccccb</color>
+    <!--个人直播界面 -->
+    <color name="personal_live_background">#FF000000</color>
+    <color name="live_end_background">#99000000</color>
+    <color name="personal_start_live_selected">#efc70b</color>
+    <!--直播结束界面 -->
+    <color name="text_color">#ffffff</color>
+    <color name="concern_ta">#413940</color>
+    <!--举报 -->
+    <color name="report_cancel">#898689</color>
+    <!--个人主页 -->
+    <color name="user_favorite_p_bg">#66000000</color>
+    <color name="user_tab_divier">#B2AFB1</color>
+    <color name="user_tab_text_selected">#413940</color>
+    <color name="user_tab_text_normal">#C2C0C2</color>
+    <color name="user_tab_bottom">#FFD200</color>
+    
+    <color name="update_header_title_text_color">#FF085EAB</color>
+    <color name="update_progress_color">#0b5cad</color>
+    
+</resources>
